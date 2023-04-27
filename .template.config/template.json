@@ -24,10 +24,12 @@
         {
           "rename": {
             ".env-template": ".env",
+            "sitecore.json-template": "sitecore.json",
             "nuget.public.config": "nuget.config"
           },
           "exclude": [
             ".env-disabled",
+            "sitecore.json",
             "node_modules/**",
             ".git/**",
             ".vs/**",
