@@ -1,0 +1,22 @@
+{
+  "namespace": "Feature.Events",
+  "items": {
+    "includes": [
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Events",
+        "database": "master",
+        "scope": "itemAndDescendants"
+      },
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Events",
+        "database": "master",
+        "scope": "itemAndDescendants"
+      }
+    ]
+  },
+  "references": [
+    "Foundation.BaseTemplates"
+  ]
+}
