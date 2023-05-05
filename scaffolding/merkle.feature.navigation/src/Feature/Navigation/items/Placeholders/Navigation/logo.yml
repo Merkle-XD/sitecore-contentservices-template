@@ -1,19 +1,15 @@
 ﻿---
-ID: "fb038723-fe68-4496-9936-4dc1e78c6a38"
-Parent: "81115aa2-267c-4d28-9e04-3023ca446379"
-Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Feature/Navigation/Site Footer
+ID: "92bddd0e-eb9e-4c8c-8c6f-6c9286c6d491"
+Parent: "959275a7-614c-4657-bc5d-2fec6eefc079"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/Navigation/logo
 SharedFields:
-- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
-  Hint: componentName
-  Value: SiteFooter
-- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
-  Hint: Placeholders
-  Value: |
-    {C45AB964-BC01-43C0-BB0B-6D145EB0C3F9}
-    {CC7451FD-4F48-42CF-AA62-EFC8ED2E5A37}
-    {1D58A8A8-2F77-4787-AE4D-74BBE24BCC18}
-    {3877FC04-E6C0-47A9-B3CE-1601A8F1C98A}
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: logo
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: "{AB2EDBA0-3960-4F12-B765-579DC231894A}"
 Languages:
 - Language: en
   Versions:
@@ -21,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230504T184448Z
+      Value: 20230505T204644Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -32,11 +28,11 @@ Languages:
         sitecore\chet.potvin@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2ccf0e1d-ded4-41b3-a740-25a5d5bfee5c"
+      Value: "f7328163-1335-4ecf-ae91-4451af656f7e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chet.potvin@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230504T185628Z
+      Value: 20230505T204716Z
