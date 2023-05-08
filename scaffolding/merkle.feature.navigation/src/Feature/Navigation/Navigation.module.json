@@ -1,6 +1,6 @@
 {
   "namespace": "Feature.Navigation",
-  "references": ["Foundation.BaseTemplates"],
+  "references": [ "Foundation.BaseTemplates" ],
   "items": {
     "includes": [
       {
@@ -11,6 +11,11 @@
       {
         "name": "Renderings",
         "path": "/sitecore/layout/Renderings/Feature/Navigation",
+        "database": "master"
+      },
+      {
+        "name": "Placeholders",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/Navigation",
         "database": "master"
       },
       {
