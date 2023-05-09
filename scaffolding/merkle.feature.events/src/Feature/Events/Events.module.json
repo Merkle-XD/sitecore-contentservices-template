@@ -1,0 +1,28 @@
+{
+  "namespace": "Feature.Events",
+  "references": ["Foundation.BaseTemplates"],
+  "items": {
+    "includes": [
+      {
+        "name": "Settings",
+        "path": "/sitecore/system/Settings/Feature/Events",
+        "database": "master"
+      },
+      {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Events",
+        "database": "master"
+      },
+      {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Events",
+        "database": "master"
+      },      
+      {
+        "name": "Media Library",
+        "path": "/sitecore/media library/Feature/Events",
+        "database": "master"
+      }
+	]
+  }
+}
