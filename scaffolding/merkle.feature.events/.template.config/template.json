@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "Chet Potvin",
+  "author": "Jeff Rondeau",
   "classifications": [ "Sitecore", "Sitecore Content Serialization" ], 
   "name": "Merkle Events Feature",
   "identity": "Merkle.Feature.Events",         

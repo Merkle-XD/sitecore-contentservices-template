@@ -17,12 +17,7 @@
         "name": "Templates",
         "path": "/sitecore/templates/Feature/Events",
         "database": "master"
-      },
-      {
-        "name": "Branches",
-        "path": "/sitecore/templates/Branches/Feature/Events",
-        "database": "master"
-      },
+      },      
       {
         "name": "Media Library",
         "path": "/sitecore/media library/Feature/Events",

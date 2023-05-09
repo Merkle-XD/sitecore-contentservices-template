@@ -6,7 +6,10 @@ Path: /sitecore/templates/Feature/Events/_Event
 SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {EF9E45B5-32E3-4AE5-ADEA-EE08CE451CFC}
+    {2E259E4E-CFF5-4668-84E5-80EF5142BAC6}
 Languages:
 - Language: en
   Versions:
@@ -25,11 +28,11 @@ Languages:
         sitecore\jeff.rondeau@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "40b4d25a-5a18-4976-a3b1-d637c877c8f7"
+      Value: "763e353c-7332-4e1d-b8e6-890f8bc68239"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeff.rondeau@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230508T180250Z
+      Value: 20230509T135603Z
