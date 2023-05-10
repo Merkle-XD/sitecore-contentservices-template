@@ -1,10 +1,24 @@
 ﻿---
-ID: "92c36861-39a7-497c-92e8-750999106d2f"
-Parent: "e828ed37-5f08-4466-a124-135f83fb118e"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/Events/_Event/Content
+ID: "d7bd6676-1b1a-45e2-b998-75724a18ba41"
+Parent: "92c36861-39a7-497c-92e8-750999106d2f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/Events/Event/Content/EventDescription
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "query:$xaRichTextProfile"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Rich Text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Event Description
   Versions:
   - Version: 1
     Fields:
@@ -21,11 +35,11 @@ Languages:
         sitecore\jeff.rondeau@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d156bfb7-2730-48ec-acd7-d73bd165f80c"
+      Value: "5d5e93d1-a8d9-4c58-a887-5dbc6524dedf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeff.rondeau@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230504T210113Z
+      Value: 20230509T140804Z
