@@ -2,11 +2,11 @@
 ID: "38090d76-6979-4ddf-ad65-50a08c70e001"
 Parent: "2dda0019-50ac-4c96-aae3-33a31de8d4fb"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Feature/Events/Event Detail
+Path: /sitecore/layout/Renderings/Feature/Events/EventDetail
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Event Detail
+  Value: EventDetail
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
   Value: /sitecore/templates/Feature/Events/Event
@@ -21,6 +21,10 @@ SharedFields:
   Value: "query:$site"
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Event Detail
   Versions:
   - Version: 1
     Fields:
@@ -37,11 +41,11 @@ Languages:
         sitecore\jeff.rondeau@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1c285695-8cbd-4d4b-a0fc-ed5dab00f71e"
+      Value: "5f00e929-918e-41af-a3e0-b1abff509213"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeff.rondeau@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230510T160724Z
+      Value: 20230510T164733Z
