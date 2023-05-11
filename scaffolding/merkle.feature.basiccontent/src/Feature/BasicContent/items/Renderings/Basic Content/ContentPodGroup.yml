@@ -6,12 +6,22 @@ Path: /sitecore/layout/Renderings/Feature/Basic Content/ContentPodGroup
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Content Pod Group
+  Value: ContentPodGroup
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/Basic Content/ContentPodGroup
+  Value: /sitecore/templates/Feature/Basic Content/ContentPod
+- ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
+  Hint: Rendering Contents Resolver
+  Value: "{3DF775BF-3F56-446F-9D81-43DE64DA4DDA}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:$site/*[@@name='Data']//*[@@templatename='ContentPodGroup']"
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Content Pod Group
   Versions:
   - Version: 1
     Fields:
@@ -28,11 +38,11 @@ Languages:
         sitecore\caitlin.otoole@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b5dc6b7b-c89c-434a-9d9b-907cd6836cee"
+      Value: "145124b6-6803-42f1-8c09-7d72deb340b5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\caitlin.otoole@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230509T120323Z
+      Value: 20230511T161358Z

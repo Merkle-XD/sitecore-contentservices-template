@@ -4,6 +4,9 @@ Parent: "3b359de3-8eb8-46fb-be26-d337b33cafaa"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Feature/Basic Content/ContentPanel
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Control/32x32/popup_menu.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -12,6 +15,10 @@ SharedFields:
     {889A3F0D-CA17-471C-9146-1C21AC10AC7A}
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Content Panel
   Versions:
   - Version: 1
     Fields:
@@ -28,11 +35,11 @@ Languages:
         sitecore\caitlin.otoole@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e100e2db-39e1-49ae-80f9-d191fb17d1dc"
+      Value: "44b8bef2-b660-4a90-8ecf-0e78709e7e99"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\caitlin.otoole@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230508T172410Z
+      Value: 20230511T161325Z
