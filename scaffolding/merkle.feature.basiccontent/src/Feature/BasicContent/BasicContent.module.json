@@ -22,6 +22,11 @@
         "name": "Media Library",
         "path": "/sitecore/media library/Feature/Basic Content",
         "database": "master"
+      },
+      {
+        "name": "Placeholder Settings",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/Basic Content",
+        "database": "master"
       }
     ]
   }
