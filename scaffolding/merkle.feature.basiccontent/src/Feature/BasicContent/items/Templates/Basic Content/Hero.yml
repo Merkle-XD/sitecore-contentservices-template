@@ -4,6 +4,9 @@ Parent: "3b359de3-8eb8-46fb-be26-d337b33cafaa"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Feature/Basic Content/Hero
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/photo_scenery.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: |
@@ -27,11 +30,11 @@ Languages:
         sitecore\caitlin.otoole@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6c72cad8-a920-435e-8f4e-5f0ec329c702"
+      Value: "84188264-7aca-4d4d-af08-9120b97afc6c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\caitlin.otoole@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230508T170623Z
+      Value: 20230511T163027Z
