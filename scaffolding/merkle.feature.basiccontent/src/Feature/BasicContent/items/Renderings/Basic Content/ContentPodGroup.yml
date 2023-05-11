@@ -7,8 +7,14 @@ SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
   Value: ContentPodGroup
+- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
+  Hint: Placeholders
+  Value: "{FD64EC1D-ACFD-4549-984D-66772A2EECCF}"
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
+  Value: 
+- ID: "592a1ce7-abe0-4986-9783-0a34f3961dc0"
+  Hint: Placeholder
   Value: 
 - ID: "b0b15510-b138-470e-8f33-8da2e228aafe"
   Hint: Rendering Contents Resolver
@@ -38,11 +44,11 @@ Languages:
         sitecore\caitlin.otoole@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "992f6eae-f197-4169-9b8b-1a24c60cad3d"
+      Value: "fdd71e33-52b4-466e-9bc2-39d586a9a6b5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\caitlin.otoole@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230511T162917Z
+      Value: 20230511T181009Z
