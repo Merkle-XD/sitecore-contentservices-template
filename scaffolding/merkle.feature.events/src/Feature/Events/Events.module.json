@@ -1,6 +1,5 @@
 {
   "namespace": "Feature.Events",
-  "references": ["Foundation.BaseTemplates"],
   "items": {
     "includes": [
       {
@@ -17,12 +16,12 @@
         "name": "Templates",
         "path": "/sitecore/templates/Feature/Events",
         "database": "master"
-      },      
+      },
       {
         "name": "Media Library",
         "path": "/sitecore/media library/Feature/Events",
         "database": "master"
       }
-	]
+    ]
   }
 }

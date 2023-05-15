@@ -2,14 +2,17 @@
 ID: "e828ed37-5f08-4466-a124-135f83fb118e"
 Parent: "2df63519-9fef-40f1-a09d-899bd65c1a51"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/Events/_Event
+Path: /sitecore/templates/Feature/Events/Event
 SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/calendar.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: |
-    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
-    {EF9E45B5-32E3-4AE5-ADEA-EE08CE451CFC}
-    {2E259E4E-CFF5-4668-84E5-80EF5142BAC6}
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{F740F299-866F-4F29-A99E-533E604C6977}"
 Languages:
 - Language: en
   Versions:
@@ -28,11 +31,11 @@ Languages:
         sitecore\jeff.rondeau@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "763e353c-7332-4e1d-b8e6-890f8bc68239"
+      Value: "244fe4a3-0f48-4257-b8db-92f3e0d85d2f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeff.rondeau@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230509T135603Z
+      Value: 20230510T160928Z
