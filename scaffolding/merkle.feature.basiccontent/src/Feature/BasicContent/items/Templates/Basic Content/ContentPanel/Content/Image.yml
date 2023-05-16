@@ -1,8 +1,8 @@
 ﻿---
-ID: "266f3a37-fcdb-490a-b6d9-9d6dfa197fb6"
-Parent: "326cb663-03e2-4436-b1a9-da52c5d23f15"
+ID: "766adab7-14d2-4423-8764-837ebc986c60"
+Parent: "2e58576d-8906-4f1e-a912-a1803173e5a7"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Basic Content/Hero/Content/ImageMedium
+Path: /sitecore/templates/Feature/Basic Content/ContentPanel/Content/Image
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
@@ -12,34 +12,30 @@ SharedFields:
   Value: Image
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 400
+  Value: 300
 Languages:
 - Language: en
-  Fields:
-  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
-    Hint: Title
-    Value: Image Medium
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230511T161544Z
+      Value: 20230516T183659Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\caitlin.otoole@merkle.com
+        sitecore\jeff.rondeau@merkle.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\caitlin.otoole@merkle.com
+        sitecore\jeff.rondeau@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e28200f0-9b6f-48ae-a56b-ad419a6949c0"
+      Value: "0cbd481e-3aff-4813-9008-3d882ca4b34a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\jeff.rondeau@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230516T183749Z
+      Value: 20230516T183719Z

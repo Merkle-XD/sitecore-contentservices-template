@@ -1,6 +1,5 @@
 {
   "namespace": "Feature.BasicContent",
-  "references": [ "Foundation.BaseTemplates" ],
   "items": {
     "includes": [
       {
