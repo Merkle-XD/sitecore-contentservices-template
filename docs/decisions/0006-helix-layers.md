@@ -49,7 +49,7 @@ Chosen option: "{title of option 1}", because
 
 * :x: Requires developer education and discipline
 * :x: Requires strict lead oversight to ensure compliance
-* :X: Lots of opportunity for dependency leaks between layers
+* :x: Lots of opportunity for dependency leaks between layers
 
 ### Traditional n-Tier Application Architecture
 
@@ -62,5 +62,5 @@ Chosen option: "{title of option 1}", because
 #### Cons
 
 * :x: Limited Reusability
-* :X: Solutions lack a definitive pattern or organization
+* :x: Solutions lack a definitive pattern or organization
 * :x: Quality of code can diminish quickly
