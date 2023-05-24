@@ -9,10 +9,7 @@ SharedFields:
   Value: Control/32x32/popup_menu_b_h.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
-  Value: |
-    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
-    {2E259E4E-CFF5-4668-84E5-80EF5142BAC6}
-    {889A3F0D-CA17-471C-9146-1C21AC10AC7A}
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 Languages:
 - Language: en
   Fields:
@@ -35,11 +32,11 @@ Languages:
         sitecore\caitlin.otoole@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "945c08bc-0abb-4be2-a8c3-3441bc7541a5"
+      Value: "cc5d25b4-ee79-4e0d-a604-b6be01c91e9f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\caitlin.otoole@merkle.com
+        sitecore\jeff.rondeau@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230511T171736Z
+      Value: 20230516T183739Z

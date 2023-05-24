@@ -1,6 +1,5 @@
 {
   "namespace": "Feature.Navigation",
-  "references": [ "Foundation.BaseTemplates" ],
   "items": {
     "includes": [
       {
@@ -28,6 +27,6 @@
         "path": "/sitecore/media library/Feature/Navigation",
         "database": "master"
       }
-	]
+    ]
   }
 }

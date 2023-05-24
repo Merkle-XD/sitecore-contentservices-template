@@ -1,6 +1,5 @@
 {
   "namespace": "helixlayer.modulename",
-  "references": ["Foundation.BaseTemplates"],
   "items": {
     "includes": [
       {
