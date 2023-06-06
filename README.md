@@ -2,13 +2,18 @@
 
 ## QUICK START
 
-1. In an ADMIN terminal:
+1. Setup your environment variables
+
+    ```
+    Copy-Item '.env-template' '.env'
+    ```
+2. In an ADMIN terminal:
 
     ```ps1
-    .\init.ps1 -InitEnv -LicenseXmlPath "C:\path\to\license.xml" -AdminPassword "DesiredAdminPassword"
+    .\init.ps1 -InitEnv
     ```
 
-2. Restart your terminal and run:
+3. Restart your terminal and run:
 
     ```ps1
     .\up.ps1
