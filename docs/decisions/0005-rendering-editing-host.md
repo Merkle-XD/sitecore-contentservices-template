@@ -30,11 +30,11 @@ Sitecore's [XM Cloud documentation](https://doc.sitecore.com/xmc/en/developers/x
 * Single Rendering Host Role
 * Separate Rendering & Editing Host Roles
 
-## Decision Outcome
+## Decision Outcome - Single Rendering Host
 
 The UI team does not want to include the front-end code alongside the Sitecore code.  This keeps a clean separation between the two development teams.
 
-If a separate editing host is needed in the future.  This ADR can be an artifact for review.
+If a separate editing host is needed in the future for more secure environments or larger development teams.  This ADR can be an artifact for review.
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Pros and Cons of the Options
