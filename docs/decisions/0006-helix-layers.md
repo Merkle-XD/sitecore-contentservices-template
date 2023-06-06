@@ -10,6 +10,9 @@ informed: Sitecore Practice Team
 
 ## Context and Problem Statement
 
+Helix is a common pattern within traditional Sitecore MVC implementations.  The primary goals are: reusability and maintainability across solutions.  With the separation of UI code from backend Sitecore code, this pattern offers less value.
+
+Do we want to continue using Helix within the backend solution?
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Decision Drivers
@@ -50,6 +53,7 @@ Chosen option: "{title of option 1}", because
 * :x: Requires developer education and discipline
 * :x: Requires strict lead oversight to ensure compliance
 * :x: Lots of opportunity for dependency leaks between layers
+* :x: Not a generally accepted practice for front-end development
 
 ### Traditional n-Tier Application Architecture
 
@@ -61,6 +65,6 @@ Chosen option: "{title of option 1}", because
   
 #### Cons
 
-* :x: Limited Reusability
+* :x: Limited Reusability within Starter Kit
 * :x: Solutions lack a definitive pattern or organization
 * :x: Quality of code can diminish quickly
