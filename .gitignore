@@ -78,6 +78,7 @@ packages/
 /src/rendering/src/temp/!.gitignore
 /src/rendering/src/temp/!GraphQLFragmentTypes.json
 /src/rendering/src/temp/!GraphQLIntrospectionResult.json
-.env
+/.env
 
 /node_modules/
+/src/Project/sxastarter/sxastarter/.env
