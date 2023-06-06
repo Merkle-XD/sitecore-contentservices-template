@@ -1,9 +1,9 @@
 ---
 # These are optional elements. Feel free to remove any of them.
-status: proposed
-date: 2023-05-09
-deciders: Ryan Heap, Caitlin O'Toole, Adam Love, Chet Potvin, Jeff Rondeau
-consulted: 
+status: decided
+date: 2023-06-06
+deciders: Ryan Heap
+consulted: Caitlin O'Toole, Adam Love, Chet Potvin, Jeff Rondeau
 informed: Sitecore Practice Team
 ---
 # Separate Rendering and Editing Host Roles
@@ -32,8 +32,9 @@ Sitecore's [XM Cloud documentation](https://doc.sitecore.com/xmc/en/developers/x
 
 ## Decision Outcome
 
-Chosen option: "{title of option 1}", because
-{justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+The UI team does not want to include the front-end code alongside the Sitecore code.  This keeps a clean separation between the two development teams.
+
+If a separate editing host is needed in the future.  This ADR can be an artifact for review.
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Pros and Cons of the Options
