@@ -1,7 +1,7 @@
 ---
 # These are optional elements. Feel free to remove any of them.
 status: proposed
-date: 2023-05-16
+date: 2023-06-08
 deciders: Caitlin O'Toole, Adam Love, Chet Potvin 
 consulted: Jeff Rondeau
 informed: Sitecore Practice Team
@@ -31,10 +31,9 @@ These items are taken from the Sitecore [knowledge center](https://www.sitecore.
 * Helix Pattern
 * Traditional n-tier architecture
 
-## Decision Outcome
+## Decision Outcome - Helix for Sitecore Backend Code and Content
 
-Chosen option: "{title of option 1}", because
-{justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+The Helix feature layer really lends itself to the starter kit because we can create these modules that can be shared across projects.  With that said, these modules are strictly for backend Sitecore code and content.  Helix principles will not be enforced for the front-end code.  The [Sitecore Architecture Guidelines](https://degdigital.atlassian.net/wiki/spaces/SCD/pages/8904015947/Sitecore+Architecture+Guidelines) define how Helix principles will be applied going forward.
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Pros and Cons of the Options
