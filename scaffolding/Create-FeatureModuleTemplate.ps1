@@ -15,6 +15,3 @@ Set-Location $ModuleTemplatePath
 (Get-Content ".\.template.config\template.json").replace('modulename', $FeatureName) | Set-Content ".\.template.config\template.json"
 
 dotnet new merkle.headless.module -n $FeatureName -cn "companyname" -hl "Feature"
-
-cd "..\.."
-dotnet sln XmCloudSXAStarter.sln add "scaffolding\merkle.feature.$FeatureName\src\Feature\$FeatureName\website\companyname.Feature.$FeatureName.csproj" --solution-folder "Feature/$FeatureName"

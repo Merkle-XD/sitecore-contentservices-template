@@ -33,13 +33,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicContent", "BasicConten
 		scaffolding\merkle.feature.basiccontent\src\Feature\BasicContent\BasicContent.module.json = scaffolding\merkle.feature.basiccontent\src\Feature\BasicContent\BasicContent.module.json
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "companyname.Feature.BasicContent", "scaffolding\merkle.feature.BasicContent\src\Feature\BasicContent\website\companyname.Feature.BasicContent.csproj", "{76396855-98A6-4E2C-885B-6DB46584A65A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{A728042F-00AD-4AEC-90B8-1E7F801281D2}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "companyname.Feature.Events", "scaffolding\merkle.feature.Events\src\Feature\Events\website\companyname.Feature.Events.csproj", "{1DD54FBF-52C2-402F-8BEA-B0826EDAFB0C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "companyname.Feature.SiteFrame", "scaffolding\merkle.feature.siteframe\src\Feature\SiteFrame\website\companyname.Feature.SiteFrame.csproj", "{829AAADC-0B50-4DFB-A221-F7A5926BCE6D}"
+	ProjectSection(SolutionItems) = preProject
+		scaffolding\merkle.feature.events\src\Feature\Events\Events.module.json = scaffolding\merkle.feature.events\src\Feature\Events\Events.module.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,18 +48,6 @@ Global
 		{816F099C-E14B-4468-9E34-87F993C6484D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{816F099C-E14B-4468-9E34-87F993C6484D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{816F099C-E14B-4468-9E34-87F993C6484D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76396855-98A6-4E2C-885B-6DB46584A65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76396855-98A6-4E2C-885B-6DB46584A65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76396855-98A6-4E2C-885B-6DB46584A65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76396855-98A6-4E2C-885B-6DB46584A65A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DD54FBF-52C2-402F-8BEA-B0826EDAFB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DD54FBF-52C2-402F-8BEA-B0826EDAFB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DD54FBF-52C2-402F-8BEA-B0826EDAFB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DD54FBF-52C2-402F-8BEA-B0826EDAFB0C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{829AAADC-0B50-4DFB-A221-F7A5926BCE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{829AAADC-0B50-4DFB-A221-F7A5926BCE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{829AAADC-0B50-4DFB-A221-F7A5926BCE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{829AAADC-0B50-4DFB-A221-F7A5926BCE6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,10 +57,7 @@ Global
 		{816F099C-E14B-4468-9E34-87F993C6484D} = {7AC51496-1AC7-4F13-A80F-8CBE7096164A}
 		{55425CD0-9626-4209-BCDF-F2DD7C4FEEC1} = {8E0E5C10-1888-4E73-96C3-598CA484AB64}
 		{043FCC90-29F9-40FA-B54C-4DEED6383F89} = {8E0E5C10-1888-4E73-96C3-598CA484AB64}
-		{76396855-98A6-4E2C-885B-6DB46584A65A} = {043FCC90-29F9-40FA-B54C-4DEED6383F89}
 		{A728042F-00AD-4AEC-90B8-1E7F801281D2} = {8E0E5C10-1888-4E73-96C3-598CA484AB64}
-		{1DD54FBF-52C2-402F-8BEA-B0826EDAFB0C} = {A728042F-00AD-4AEC-90B8-1E7F801281D2}
-		{829AAADC-0B50-4DFB-A221-F7A5926BCE6D} = {55425CD0-9626-4209-BCDF-F2DD7C4FEEC1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A7C4987-3A11-41A9-8915-5457EF7B5A6F}
