@@ -16,13 +16,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{66A2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{8E0E5C10-1888-4E73-96C3-598CA484AB64}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sxastarter", "sxastarter", "{7AC51496-1AC7-4F13-A80F-8CBE7096164A}"
-	ProjectSection(SolutionItems) = preProject
-		src\Project\sxastarter\renderinghost.module.json = src\Project\sxastarter\renderinghost.module.json
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform", "src\Project\sxastarter\platform\Platform.csproj", "{816F099C-E14B-4468-9E34-87F993C6484D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SiteFrame", "SiteFrame", "{55425CD0-9626-4209-BCDF-F2DD7C4FEEC1}"
 	ProjectSection(SolutionItems) = preProject
 		scaffolding\merkle.feature.siteframe\src\Feature\SiteFrame\SiteFrame.module.json = scaffolding\merkle.feature.siteframe\src\Feature\SiteFrame\SiteFrame.module.json
@@ -47,10 +40,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{816F099C-E14B-4468-9E34-87F993C6484D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{816F099C-E14B-4468-9E34-87F993C6484D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{816F099C-E14B-4468-9E34-87F993C6484D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{816F099C-E14B-4468-9E34-87F993C6484D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{76396855-98A6-4E2C-885B-6DB46584A65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{76396855-98A6-4E2C-885B-6DB46584A65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76396855-98A6-4E2C-885B-6DB46584A65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -68,8 +57,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7AC51496-1AC7-4F13-A80F-8CBE7096164A} = {66A25B28-E628-44DE-BBF4-1229526B2948}
-		{816F099C-E14B-4468-9E34-87F993C6484D} = {7AC51496-1AC7-4F13-A80F-8CBE7096164A}
 		{55425CD0-9626-4209-BCDF-F2DD7C4FEEC1} = {8E0E5C10-1888-4E73-96C3-598CA484AB64}
 		{043FCC90-29F9-40FA-B54C-4DEED6383F89} = {8E0E5C10-1888-4E73-96C3-598CA484AB64}
 		{76396855-98A6-4E2C-885B-6DB46584A65A} = {043FCC90-29F9-40FA-B54C-4DEED6383F89}

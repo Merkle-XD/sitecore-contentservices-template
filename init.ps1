@@ -7,14 +7,7 @@ Param (
     [Parameter(
         HelpMessage = "The path to a valid Sitecore license.xml file.",
         ParameterSetName = "env-init")]
-    [string]$LicenseXmlPath = "c:\sitecore\license\license.xml",
-
-    # We do not need to use [SecureString] here since the value will be stored unencrypted in .env,
-    # and used only for transient local development environments.
-    [Parameter(
-        HelpMessage = "Sets the sitecore\\admin password for this environment via environment variable.",
-        ParameterSetName = "env-init")]
-    [string]$AdminPassword = "Password1234!"
+    [string]$LicenseXmlPath = "c:\sitecore\license\license.xml"
 )
 
 $ErrorActionPreference = "Stop";
@@ -162,8 +155,7 @@ if ($InitEnv) {
     # SQL_SA_LOGIN
     Set-EnvFileVariable "SQL_SA_LOGIN" -Value "sa"
 
-    # SITECORE_ADMIN_PASSWORD
-    Set-EnvFileVariable "SITECORE_ADMIN_PASSWORD" -Value $AdminPassword
+    Set-EnvFileVariable "SITECORE_ADMIN_PASSWORD" -Value "'$(Get-SitecoreRandomString 19 -DisallowSpecial -EnforceComplexity)'"
 }
 
 Write-Host "Done!" -ForegroundColor Green
