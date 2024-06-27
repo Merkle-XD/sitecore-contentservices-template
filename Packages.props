@@ -14,6 +14,6 @@
     <PackageReference Update="Sitecore.XmCloud.ContentSearch.Linq" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.XmCloud.LayoutService" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.XmCloud.Assemblies" Version="$(PlatformVersion)" />
-    <PackageReference Update="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="19.*" />
+    <PackageReference Update="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="21.*" />
   </ItemGroup>
 </Project>

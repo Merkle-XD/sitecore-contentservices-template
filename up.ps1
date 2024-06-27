@@ -1,11 +1,16 @@
 $ErrorActionPreference = "Stop";
 
+. .\upFunctions.ps1
+
+Validate-LicenseExpiry
+
 $envContent = Get-Content .env -Encoding UTF8
 $xmCloudHost = $envContent | Where-Object { $_ -imatch "^CM_HOST=.+" }
 $sitecoreDockerRegistry = $envContent | Where-Object { $_ -imatch "^SITECORE_DOCKER_REGISTRY=.+" }
 $sitecoreVersion = $envContent | Where-Object { $_ -imatch "^SITECORE_VERSION=.+" }
 $ClientCredentialsLogin = $envContent | Where-Object { $_ -imatch "^SITECORE_FedAuth_dot_Auth0_dot_ClientCredentialsLogin=.+" }
 $sitecoreApiKey = ($envContent | Where-Object { $_ -imatch "^SITECORE_API_KEY_xmcloudpreview=.+" }).Split("=")[1]
+$xmcloudDockerToolsImage = ($envContent | Where-Object { $_ -imatch "^TOOLS_IMAGE=.+" }).Split("=")[1]
 
 $xmCloudHost = $xmCloudHost.Split("=")[1]
 $sitecoreDockerRegistry = $sitecoreDockerRegistry.Split("=")[1]
@@ -39,16 +44,19 @@ if (-not $envCheck) {
 Write-Host "Keeping XM Cloud base image up to date" -ForegroundColor Green
 docker pull "$($sitecoreDockerRegistry)sitecore-xmcloud-cm:$($sitecoreVersion)"
 
+Write-Host "Keeping XM Cloud Tools image up to date" -ForegroundColor Green
+docker pull "$($xmcloudDockerToolsImage):$($sitecoreVersion)"
+
 # Build all containers in the Sitecore instance, forcing a pull of latest base containers
 Write-Host "Building containers..." -ForegroundColor Green
-docker-compose build
+docker compose build
 if ($LASTEXITCODE -ne 0) {
     Write-Error "Container build failed, see errors above."
 }
 
 # Start the Sitecore instance
 Write-Host "Starting Sitecore environment..." -ForegroundColor Green
-docker-compose up -d
+docker compose up -d
 
 # Wait for Traefik to expose CM route
 Write-Host "Waiting for CM to become available..." -ForegroundColor Green
@@ -62,7 +70,7 @@ do {
             throw
         }
     }
-} while ($status.status -ne "enabled" -and $startTime.AddSeconds(15) -gt (Get-Date))
+} while ($status.status -ne "enabled" -and $startTime.AddSeconds(60) -gt (Get-Date))
 if (-not $status.status -eq "enabled") {
     $status
     Write-Error "Timeout waiting for Sitecore CM to become available via Traefik proxy. Check CM container logs."
@@ -104,7 +112,7 @@ Write-Host "Rebuilding indexes ..." -ForegroundColor Green
 dotnet sitecore index rebuild
 
 Write-Host "Pushing Default rendering host configuration" -ForegroundColor Green
-dotnet sitecore ser push
+dotnet sitecore ser push -i RenderingHost
 
 Write-Host "Pushing sitecore API key" -ForegroundColor Green
 & docker\build\cm\templates\import-templates.ps1 -RenderingSiteName "xmcloudpreview" -SitecoreApiKey $sitecoreApiKey
@@ -117,5 +125,5 @@ if ($ClientCredentialsLogin -ne "true") {
 
 Write-Host ""
 Write-Host "Use the following command to monitor your Rendering Host:" -ForegroundColor Green
-Write-Host "docker-compose logs -f rendering"
+Write-Host "docker compose logs -f rendering"
 Write-Host ""
